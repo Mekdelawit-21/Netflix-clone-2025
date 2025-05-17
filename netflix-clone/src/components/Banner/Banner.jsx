@@ -17,7 +17,8 @@ const Banner = () => {
           ]
         );
       } catch (error) {
-        console.error("Error fetching data:", error);
+        // console.error("Error fetching data:", error);
+        console.log("error",error)
       }
     };
 
@@ -25,7 +26,7 @@ const Banner = () => {
   }, []);
 
   const truncate = (str, n) => {
-    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+    return str?.length > n ? str.substr(0, n - 1) + '...' : str;
   };
 
   return (

@@ -1,4 +1,3 @@
-// ***API_KEY = "9ffae6538c4854ebf385f006a0a8bcc5";***
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;;
 const requests = {
